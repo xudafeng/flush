@@ -29,7 +29,7 @@ var object;
     return parser.parseFromString(xml, 'text/html');
   };
 
-  var url = 'https://github.com/xudafeng';
+  var url = '//xudafeng.github.io/nodejs/fs.html';
 
   Util.ajax(url, function(data) {
     var xml = Util.domParser(data);
